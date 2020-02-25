@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
 
       </div>
       <footer style={{
-              background: `rebeccapurple`,
+              background: `#93E9BE`,
               width:`100%`,
               margin: `0 auto`,
           }}
