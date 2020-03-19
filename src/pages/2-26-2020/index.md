@@ -1,7 +1,7 @@
 ---
 path: "/post-two"
-date: "2-25-2020"
-title: "My first Gatsby Post"
+date: "2-26-2020"
+title: "My second Gatsby Post"
 author: "Linda Li"
 ---
 
