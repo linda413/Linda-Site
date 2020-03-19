@@ -40,12 +40,11 @@ const Layout = ({ children }) => {
 
       </div>
       <footer style={{
-              background: `#93E9BE`,
+              background: `#699D90`,
               width:`100%`,
               margin: `0 auto`,
           }}
         >
-          0.0
         </footer>
     </>
   )
