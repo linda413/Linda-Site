@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Christ in You is the hope of Glory</h1>
-    <p>Let's take a walk on the Wild side</p>
+    
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       {/* <Image style={{ minHeight: "120px", width: "110%" }}/> */}
     </div>
