@@ -5,11 +5,16 @@ import Layout from "../layouts"
 // import Image from "../components/image"
 //import SEO from "../components/seo"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Animated} from "react-animated-css";
+
 
 const IndexPage = () => (
   <Layout>
-
-    <h1>Christ in You is the hope of Glory</h1>
+    <Animated animationIn="fadeInLeft"  animationInDuration={3000} isVisible={true}>
+      <h1 style={{ textAlign: `center` }}>Hi there, my name is Linda</h1>
+    </Animated>
+    <br/>
+    <br/>
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum mauris nisi, molestie faucibus risus posuere vitae. Proin ac nisl vel erat efficitur aliquet eu ac ante. Pellentesque eu odio in purus volutpat euismod. 
       Aenean ac nunc arcu. Integer eget lorem accumsan, interdum arcu gravida, molestie augue. Morbi sit amet commodo metus, non tincidunt dui. Mauris vitae mi eu lectus ornare aliquam. 
       Sed at vehicula erat, et consectetur neque. Duis tempor, nibh quis sagittis luctus, arcu tellus sodales nunc, non congue quam velit eu massa. 

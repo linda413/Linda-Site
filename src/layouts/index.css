@@ -15,10 +15,10 @@ figcaption,
 figure,
 footer,
 header{
-  height: 70vh;
+  height: 80vh;
 }
 .headerImg{
-  height: 70vh;
+  height: 100%;
   opacity: 80%;
   background-size: cover;
   background-repeat: no-repeat;

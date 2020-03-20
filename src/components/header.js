@@ -13,12 +13,11 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-
     <div 
     className="headerImg" 
     style={{ backgroundImage: `url(${santaCruz})`
     }}>
-      <>
+    <>
       <Navbar expand="lg">
       <Navbar.Brand href="#home"> Welcome to  </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,8 +34,8 @@ const Header = ({ siteTitle }) => (
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
-    </Navbar>
-      </>
+      </Navbar>
+    </>
       <div     
       style={{
         margin: `0 auto`,
