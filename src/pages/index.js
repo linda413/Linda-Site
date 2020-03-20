@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../layouts"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.min.css";
 import {Animated} from "react-animated-css";
 
 const IndexPage = () => (
@@ -11,7 +12,6 @@ const IndexPage = () => (
     </Animated>
     <br/>
     <br/>
-    
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum mauris nisi, molestie faucibus risus posuere vitae. Proin ac nisl vel erat efficitur aliquet eu ac ante. Pellentesque eu odio in purus volutpat euismod. 
       Aenean ac nunc arcu. Integer eget lorem accumsan, interdum arcu gravida, molestie augue. Morbi sit amet commodo metus, non tincidunt dui. Mauris vitae mi eu lectus ornare aliquam. 
       Sed at vehicula erat, et consectetur neque. Duis tempor, nibh quis sagittis luctus, arcu tellus sodales nunc, non congue quam velit eu massa. 

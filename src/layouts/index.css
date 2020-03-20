@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
-.DevBitCarousel{
-  width: 50%;
+
+.portfolio_description{
+  font-size: 0.9em ;
 }
 html {
   font-family: sans-serif;
