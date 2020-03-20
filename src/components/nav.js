@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 
 const Nav = () =>(
     <div style={{
-        background:'#f4f4f4',
         paddingTop: '10px'
     }}>
         <ul style={{

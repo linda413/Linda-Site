@@ -14,7 +14,16 @@ details,
 figcaption,
 figure,
 footer,
-header,
+header{
+  height: 70vh;
+}
+.headerImg{
+  height: 70vh;
+  opacity: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 main,
 menu,
 nav,
