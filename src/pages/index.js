@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import cover from '../images/LindaCover.jpg'
-import {  Row , Col, Container, Image} from "react-bootstrap";
+import {  Row , Col, Container, Image, Card} from "react-bootstrap";
 
 const IndexPage = () => (
 
@@ -43,22 +43,31 @@ const IndexPage = () => (
         zIndex:`-1`
         }} 
         >
-        <Col 
-        md={{ span: 6 }} sm={{ span: 12 }}  
-
-        >     <br/>
-              <br/>
-              <br/> 
-              <br/>
-              <br/>
-              <br/> 
-              
-              
+        <Col className="intro" 
+        md={{ span: 6 }} xs={{ span: 12 }} >     
+              <Row 
+                style={{
+                  backgroundColor:`inherit`,
+                  border:`none`,
+                  textAlign:`center`,
+                  lineHeight:`2.5`,
+                  paddingLeft:`15%`,
+                  paddingRight:`15%`
+                }}
+                >Hiya! 
+                <br/>
+                
+                My name is Linda Li.
+                <br/>
+                
+                Born in Taiwan, raised in Shanghai, I am an aspiring CS Student currently located in California on her transformation to a full fledged Software Engineer. </Row>
+     
         </Col>
         <Col   
-        md={{ span: 6 }} sm={{ span: 12 }}  
+        md={{ span: 6 }} xs={{ span: 12 }}  
         style={{
             padding:`0`
+            
           }}>
           <Image
             src={cover} fluid ></Image>

@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+.intro {
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+}
 .cover{
   top: 0;
   position: absolute;
   z-index: inherit 0;
   padding:0
-}
-.portfolio_description{
-  font-size: 0.9em ;
 }
 html {
   font-family: sans-serif;
