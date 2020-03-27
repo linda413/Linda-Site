@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
-
+.cover{
+  top: 0;
+  position: absolute;
+  z-index: inherit 0;
+  padding:0
+}
 .portfolio_description{
   font-size: 0.9em ;
 }
@@ -19,16 +24,7 @@ details,
 figcaption,
 figure,
 footer,
-header{
-  height: 80vh;
-}
-.headerImg{
-  height: 100%;
-  opacity: 80%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
+header,
 main,
 menu,
 nav,

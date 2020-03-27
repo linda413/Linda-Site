@@ -2,12 +2,9 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import Layout from "../layouts"
-// import Image from "../components/image"
-import SEO from "../components/seo"
 
 const BlogPage = ({data}) => (
     <Layout>
-    <SEO title="Home" />
     <div>
         <h1> Latest Blog posts</h1>
         {data.allMarkdownRemark.edges.map(post =>(

@@ -4,7 +4,7 @@ import Bit from "../images/BitProject.jpg"
 import coc from "../images/coc.png"
 
 import ScrollAnimation from 'react-animate-on-scroll';
-// import PostCon from "../images/postcon.jpg"
+
 import { Row, Image,  Col } from "react-bootstrap"
 
 const Portfolio = () => (

@@ -1,26 +1,71 @@
 import React from "react"
-import { Link } from "gatsby"
-import Layout from "../layouts"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import cover from '../images/LindaCover.jpg'
+import {  Row , Col, Container, Image} from "react-bootstrap";
 
 const IndexPage = () => (
-  <Layout>
-    <ScrollAnimation animateIn="fadeIn">
-      <h1 > Hi there, my name is Linda </h1>
-    </ScrollAnimation>
-    <br/>
-    <br/>
-    <ScrollAnimation animateIn="fadeIn">
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum mauris nisi, molestie faucibus risus posuere vitae. Proin ac nisl vel erat efficitur aliquet eu ac ante. Pellentesque eu odio in purus volutpat euismod. 
-      Aenean ac nunc arcu. Integer eget lorem accumsan, interdum arcu gravida, molestie augue. Morbi sit amet commodo metus, non tincidunt dui. Mauris vitae mi eu lectus ornare aliquam. 
-      Sed at vehicula erat, et consectetur neque. Duis tempor, nibh quis sagittis luctus, arcu tellus sodales nunc, non congue quam velit eu massa. 
-      Nunc ornare lectus a purus gravida pellentesque. Aliquam viverra sem turpis, vitae aliquet nisl ornare non. Praesent sodales mi nec ultricies posuere. Quisque non ipsum urna. Etiam vestibulum et diam sed posuere. 
-      Integer ac velit ut massa blandit dignissim nec ac dui. Fusce tincidunt ullamcorper nunc, sed auctor urna tincidunt eu. </p>
-    </ScrollAnimation>
-    <Link to="/portfolio">Go to page 2</Link>
-  </Layout>
+
+      <Container fluid 
+      style={{
+        position: `relative`,
+      }}
+      >
+        <Navbar 
+        className="cover" style={{
+          zIndex:`0`,}}
+       expand="lg">
+        <Navbar.Brand href="#home"> Welcome to  </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+            <NavDropdown title="And More!" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">My Belief</NavDropdown.Item>
+              <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
+              <NavDropdown.Item href="/music">Music</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Row   
+      className="cover"
+
+       style={{
+        backgroundColor:`#FFE7DD`,
+        zIndex:`-1`
+        }} 
+        >
+        <Col 
+        md={{ span: 6 }} sm={{ span: 12 }}  
+
+        >     <br/>
+              <br/>
+              <br/> 
+              <br/>
+              <br/>
+              <br/> 
+              
+              
+        </Col>
+        <Col   
+        md={{ span: 6 }} sm={{ span: 12 }}  
+        style={{
+            padding:`0`
+          }}>
+          <Image
+            src={cover} fluid ></Image>
+        </Col>
+      </Row>   
+    </Container>
+
 )
 
 export default IndexPage
