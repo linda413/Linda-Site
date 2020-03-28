@@ -9,7 +9,6 @@ import { Row, Image,  Col } from "react-bootstrap"
 
 const Portfolio = () => (
   <Layout>
-    <h1> Portfolio</h1>
     <br/>
     <br/>
     <ScrollAnimation animateIn="fadeIn">

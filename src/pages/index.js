@@ -7,9 +7,9 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import cover from '../images/LindaCover.jpg'
 import {  Row , Col, Container, Image} from "react-bootstrap";
-
+import Portfolio from "./portfolio"
 const IndexPage = () => (
-
+<>
       <Container fluid 
       style={{
         position: `relative`,
@@ -59,12 +59,15 @@ const IndexPage = () => (
           <ScrollAnimation duration={2} animateIn='fadeIn' >
             <div className="pinkDiv" ></div>
           </ScrollAnimation>    
-          <ScrollAnimation delay={1000} duration={2} animateIn='fadeIn'>
+          <ScrollAnimation delay={800} duration={2} animateIn='fadeIn'>
             <Image  style = {{height:`80%`}}  className="lindaImage" src={cover} fluid ></Image>
           </ScrollAnimation>                          
         </Col>
-      </Row>   
+      </Row> 
+      
     </Container>
+    <Portfolio></Portfolio>
+    </>
 
 )
 
