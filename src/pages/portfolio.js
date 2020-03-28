@@ -1,14 +1,12 @@
 import React from "react"
-import Layout from "../layouts"
 import Bit from "../images/BitProject.jpg"
 import coc from "../images/coc.png"
-
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import { Row, Image,  Col } from "react-bootstrap"
 
 const Portfolio = () => (
-  <Layout>
+<>
     <br/>
     <br/>
     <ScrollAnimation animateIn="fadeIn">
@@ -38,8 +36,9 @@ const Portfolio = () => (
         </Col>
       </Row>  
       </ScrollAnimation>
+      
+    </>
 
-  </Layout>
 )
 
 export default Portfolio

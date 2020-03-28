@@ -8,6 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import cover from '../images/LindaCover.jpg'
 import {  Row , Col, Container, Image} from "react-bootstrap";
 import Portfolio from "./portfolio"
+import travel from "../images/IMG_20180326_185243-2.jpg" 
+
 const IndexPage = () => (
 <>
       <Container fluid 
@@ -67,6 +69,30 @@ const IndexPage = () => (
       
     </Container>
     <Portfolio></Portfolio>
+    <Col
+    style={{
+      position: `relative`,
+      fontSize:`3em`,
+      color: `#FFEAE1`,
+      display:`flex`,
+      justifyContent:`center`,
+      width: `100%`,
+    }}>
+      <Row
+      style={{
+        position:`absolute`,
+        display:`flex`,
+        justifyContent:`center`
+    }}
+      >Travel</Row>
+      <Image style={{
+        marginBottom: `0`,
+        top:`0`,
+        position:`absolute`,
+        zIndex:`-1`
+      }}
+      src={travel} fluid/>
+    </Col>
     </>
 
 )
